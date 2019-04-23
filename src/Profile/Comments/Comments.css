@@ -2,9 +2,8 @@
     background: #FFFFFF;
     box-shadow: 0 0 4px 0 rgba(172, 172, 172, 0.50);
     border-radius: 5px;
-    position: absolute;
-    top: 229px;
-    left: 17px;
+    margin-top: -10px;
+    margin-left: 17px;
     width: 466px;
 }
 
@@ -17,6 +16,7 @@
     cursor: pointer;
     margin-top: 25px;
     margin-left: 20px;
+    padding-top: 25px;
 }
 
 .CommentsContainer {
@@ -43,4 +43,11 @@
 ::-webkit-scrollbar-thumb {
     background: rgba(0, 44, 113, 0.12);
     border-radius: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Comments {
+        width: 283px;
+        top: 286px;
+    }
 }

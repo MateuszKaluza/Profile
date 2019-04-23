@@ -4,9 +4,8 @@
     border-radius: 5px;
     width: 466px;
     height: 183px;
-    position: absolute;
-    top: 36px;
-    left: 17px
+    margin-top: 36px;
+    margin-left: 17px
 }
 
 .ShareIcon {
@@ -16,8 +15,13 @@
     float: right;
 }
 
+.ShareIcon:hover {
+    cursor: pointer;
+}
+
 .HeartIcon {
     color: #D3D3D3;
+    cursor: pointer;
 }
 
 .grid-container {
@@ -44,4 +48,11 @@
 
 .PlaceContainer {
     grid-area: PlaceContainer;
+}
+
+@media only screen and (max-width: 600px) {
+    .User {
+        width: 283px;
+        height: 235px;
+    }
 }
