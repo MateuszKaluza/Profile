@@ -1,0 +1,19 @@
+.FollowButton {
+    margin-left: 35px;
+    background: #FFA640;
+    border-radius: 100px;
+    border: none;
+    width: 134px;
+    height: 48px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 4.2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.FollowButton:focus {
+    outline: none;
+}

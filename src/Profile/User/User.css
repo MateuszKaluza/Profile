@@ -1,0 +1,47 @@
+.User {
+    background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(172, 172, 172, 0.50);
+    border-radius: 5px;
+    width: 466px;
+    height: 183px;
+    position: absolute;
+    top: 36px;
+    left: 17px
+}
+
+.ShareIcon {
+    color: #FFA640;
+    margin-top: 12px;
+    margin-right: 12px;
+    float: right;
+}
+
+.HeartIcon {
+    color: #D3D3D3;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "UserImageContainer NameContainer HeartIconContainer" "UserImageContainer PlaceContainer HeartIconContainer";
+    clear: both;
+    width: 57%;
+    margin-left: 20px;
+}
+
+.HeartIconContainer {
+    grid-area: HeartIconContainer;
+    padding-top: 18px;
+}
+
+.UserImageContainer {
+    grid-area: UserImageContainer;
+}
+
+.NameContainer {
+    grid-area: NameContainer;
+    align-self: end;
+}
+
+.PlaceContainer {
+    grid-area: PlaceContainer;
+}

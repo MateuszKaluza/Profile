@@ -1,0 +1,9 @@
+.Profile {
+    background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(172, 172, 172, 0.50);
+    border-radius: 5px;
+    width: 500px;
+    height: 800px;
+    position: relative;
+    font-family: Montserrat;
+}

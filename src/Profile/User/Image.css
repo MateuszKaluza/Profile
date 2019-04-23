@@ -1,0 +1,14 @@
+.Image {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.ImageContainer {
+    display: inline-block;
+}
+
+.Small {
+    width: 40px;
+    height: 40px;
+}

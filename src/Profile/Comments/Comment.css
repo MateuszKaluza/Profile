@@ -1,0 +1,50 @@
+.Comment {
+    border-bottom: 1px solid #EBEBEB;
+    margin-right: 10px;
+}
+
+.comment-grid-container {
+    display: grid;
+    grid-template-columns: 0.35fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "CommentatorImageContainer CommentatorNameContainer CommentDateContainer";
+    margin-top: 30px;
+}
+
+.CommentatorImageContainer {
+    grid-area: CommentatorImageContainer;
+    padding-left: 20px;
+    margin-bottom: -15px;
+}
+
+.CommentatorNameContainer {
+    grid-area: CommentatorNameContainer;
+    align-self: center;
+}
+
+.CommentDateContainer {
+    grid-area: CommentDateContainer;
+    align-self: center;
+    text-align: end;
+    padding-right: 10px
+}
+
+.CommentContent {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #444444;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-bottom: 25px
+}
+
+.CommentDate {
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #002C71;
+    letter-spacing: 0;
+}

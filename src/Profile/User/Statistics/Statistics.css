@@ -1,0 +1,77 @@
+.Statistics {
+  display: inline-block;
+  margin-left: 21px;
+  margin-top: 19px;
+}
+
+.StatisticsType {
+  font-family: Montserrat;
+  font-size: 10px;
+  color: #989A9C;
+  letter-spacing: 0;
+}
+
+.StatisticsValue {
+  font-family: Montserrat;
+  font-size: 24px;
+  color: #FFA640;
+  letter-spacing: 0;
+}
+
+.Spacer {
+  opacity: 0.1;
+  background: #979797;
+  width: 1px;
+  height: 38px;
+  align-self: center;
+  margin-bottom: 5px
+}
+
+.Spacer.Second {
+  margin-left: 10px;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "a-wVogA-0 a-ANRO2-0 a-6XDVv-0 a-lxZ6m-0 a-E8YQ2-0" "a-wVogA-1 a-ANRO2-0 a-6XDVv-1 a-lxZ6m-0 a-E8YQ2-1";
+  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.a-wVogA-0 {
+  grid-area: a-wVogA-0;
+}
+
+.a-ANRO2-0 {
+  grid-area: a-ANRO2-0;
+}
+
+.a-6XDVv-0 {
+  grid-area: a-6XDVv-0;
+}
+
+.a-lxZ6m-0 {
+  grid-area: a-lxZ6m-0;
+}
+
+.a-E8YQ2-0 {
+  grid-area: a-E8YQ2-0;
+}
+
+.a-MwkB2-0 {
+  grid-area: a-MwkB2-0;
+}
+
+.a-wVogA-1 {
+  grid-area: a-wVogA-1;
+}
+
+.a-6XDVv-1 {
+  grid-area: a-6XDVv-1;
+}
+
+.a-E8YQ2-1 {
+  grid-area: a-E8YQ2-1;
+}

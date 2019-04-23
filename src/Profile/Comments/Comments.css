@@ -1,0 +1,46 @@
+.Comments {
+    background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(172, 172, 172, 0.50);
+    border-radius: 5px;
+    position: absolute;
+    top: 229px;
+    left: 17px;
+    width: 466px;
+}
+
+.HideComments {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #FFA640;
+    letter-spacing: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.CommentsContainer {
+    overflow: auto;
+    height: 525px;
+    margin-right: 6px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    opacity: 0.3;
+    background: #D8D8D8;
+    border-radius: 100px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 100px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 44, 113, 0.12);
+    border-radius: 100px;
+}
