@@ -1,0 +1,43 @@
+.AddComment {
+    border: none;
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 42px;
+    margin-bottom: 32px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #444444;
+    letter-spacing: 0;
+    text-align: justify;
+    border-bottom: 2px solid #DBE0E8;
+    resize: none;
+    padding: 0;
+}
+
+::placeholder {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #8298B9;
+    letter-spacing: 0;
+    vertical-align: bottom;
+}
+
+.AddComment:focus {
+    outline: none;
+}
+
+.AddComment:focus::placeholder {
+    opacity: 0;
+}
+
+.SendIcon {
+    color: #D3D3D3;
+    position: relative;
+    top: -40px;
+    left: -5%;
+}
+
+.SendIcon:hover {
+    cursor: pointer;
+    color:rgb(170, 165, 165);
+}
