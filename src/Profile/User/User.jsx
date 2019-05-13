@@ -43,7 +43,7 @@ class User extends Component {
                         <Name first="Smok" last="Tabaluga" />
                     </div>
                     <div className="PlaceContainer">
-                        <Place city="Rajska Dolina" country="???" />
+                        <Place city="Rajska Dolina" country="CHGW" />
                     </div>
                 </div>
                 <Statistics />
