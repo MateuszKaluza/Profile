@@ -17,7 +17,6 @@ class Statistics extends Component {
                     <div className="a-6XDVv-1 StatisticsType">Following</div>
                     <div className="a-E8YQ2-1 StatisticsType">Followers</div>
                 </div>
-
             </div>
         );
     }
