@@ -15,3 +15,10 @@ export const follow = () => ({
 export const unfollow = () => ({
     type: actionTypes.UNFOLLOW
 });
+
+export  const addCommnet = (newComment) => {
+    return {
+        type: actionTypes.ADD_COMMNET,
+        newComment
+    }
+};

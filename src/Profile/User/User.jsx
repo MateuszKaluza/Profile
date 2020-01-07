@@ -68,7 +68,7 @@ class User extends Component {
 const mapDispatchToProps = dispatch => {
     return {
         toggleLikes: (toggleHeart) => {
-            const action = toggleHeart ? actionTypes.decrementLikes : actionTypes.increnmentLikes
+            const action = toggleHeart ? actionTypes.decrementLikes : actionTypes.increnmentLikes;
             dispatch(action());
         }
     }
